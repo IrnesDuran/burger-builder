@@ -1,5 +1,6 @@
 import React from 'react';
 import Aux from '../../../hoc/Auxil';
+import Button from '../../UI/Button/Button';
 
 
 
@@ -19,9 +20,10 @@ return (
             <p>A delicious burger with the following ingredients:</p>
             <ul>
                 {ingredientsSummary}
-
             </ul>
             <p>Continue to Checkout!</p>
+            <Button btnType="Danger" clicked ={props.purchaseCancelled}>CANCEL</Button>
+            <Button btnType="Success" clicked ={props.purchaseContinued}>CONTINUE</Button>
         </Aux>
 
         );
