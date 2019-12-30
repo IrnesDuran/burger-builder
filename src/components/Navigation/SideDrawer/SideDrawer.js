@@ -3,7 +3,7 @@ import Logo from '../../Logo/Logo';
 import NavigationItems from '../../Navigation/NavigationItems/NavigationItems';
 import classes from './SideDrawer.css';
 import Backdrop from '../../UI/Backdrop/Backdrop';
-import Aux from '../../../hoc/Auxil';
+import Aux from '../../../hoc/Auxil/Auxil';
 
 
 const sideDrawer =(props) => {
@@ -33,3 +33,4 @@ const sideDrawer =(props) => {
 };
 
 export default sideDrawer;
+
