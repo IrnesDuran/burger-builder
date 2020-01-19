@@ -7,9 +7,7 @@
     box-shadow: 0 2px 1px #ccc;
     margin: auto;
     padding: 10px 0;
-
 }
-
 
 .OrderButton {
     background-color: #DAD735;
@@ -21,8 +19,6 @@
     font-size: 1.2em;
     padding: 15px 30px;
     box-shadow: 2px 2px 2px #966909;
-    margin-left:100px;
-
 }
 
 .OrderButton:hover, .OrderButton:active {
